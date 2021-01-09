@@ -1,0 +1,12 @@
+.previous-search {
+    background-color: beige;
+    padding: 20px;
+}
+
+.previous-search span {
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 0.8rem;
+}

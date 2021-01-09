@@ -1,0 +1,40 @@
+.results {
+    padding: 20px;
+}
+
+.table {
+    width: 100%;
+    border: 1px solid #f2f2f2;
+    font-size: 1rem;
+    margin: 0.5rem;
+    line-height: 1.5;
+    justify-content: space-between;
+}
+
+.table-header {
+    font-weight: 700;
+    background-color: #defdec;
+}
+
+.table-row:nth-of-type(even) {
+    background-color: #ffffff;
+}
+
+.table-row:nth-of-type(odd) {
+    background-color: #f2f2f2;
+}
+
+.table-row-item {
+
+    padding: 0.5em;
+    word-break: break-all;
+
+}
+
+.al {
+    text-align: left;
+}
+.w100 {
+    width: 100px;
+
+}

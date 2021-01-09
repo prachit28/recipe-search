@@ -1,0 +1,42 @@
+.search-container {
+    display: flex;
+    background-color: #ececec;
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.search-box {
+    min-width: 250px;
+    width: 50%;
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.search-box input, .search-box select {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid  orange;
+    outline: none;
+}
+
+.search-box > button {
+    padding: 10px;
+    background-color: orange;
+    color: black;
+    border: 0;
+    border-radius: 10px;
+    margin: 5px;
+    outline: none;
+}
+
+.filters{
+    text-align: left;
+}
+
+.filters input, .filters select {
+    display: block;
+    width: -webkit-fill-available;
+    margin: 5px 0;
+}
